@@ -1,10 +1,10 @@
-import online from "../../assets/presencia-online.png";
+import online from "../../assets/presencia.mp4";
 function SecondSection() {
   return (
     <div className="container flex flex-row gap-14 pb-20">
       <div className="section-left flex flex-col items-start w-1/2 gap-8">
         <h1 className="font-semibold font-monserrat text-5xl text-black">Tu presencia online</h1>
-        <img src={online} alt="" />
+        <video className="rounded-[30px] bg-none border-none w-full" src={online} autoPlay muted loop></video>
       </div>
       <div className="section-right w-1/2 pt-20 text-left flex flex-col gap-4">
         <h3 className="font-semibold text-5xl">
